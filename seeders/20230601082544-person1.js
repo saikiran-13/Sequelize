@@ -3,32 +3,35 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    queryInterface.bulkInsert('Studentinfos', [
-      // {
-      //   name: 'saikiran',
-      //   course: 'blockchain',
-      //   age: 22,
-      //   createdAt: new Date(),
-      //   updatedAt: new Date(),
-      //   // feepaid: true,
-      // },
-      {
-        name: 'suresh',
-        course: 'blockchain',
-        age: 22,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        // feepaid: true,
-      },
-      {
-        name: 'Ramesh',
-        course: 'blockchain',
-        age: 22,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        // feepaid: true,
-      },
-    ]);
+    // queryInterface.bulkInsert('Studentinfos', [
+    //   // {},
+    //   // {
+    //   //   name: 'saikiran',
+    //   //   course: 'blockchain',
+    //   //   age: 22,
+    //   //   createdAt: new Date(),
+    //   //   updatedAt: new Date(),
+    //   //   // feepaid: true,
+    //   // },
+    //   // {
+    //   //   name: 'suresh',
+    //   //   course: 'blockchain',
+    //   //   age: 22,
+    //   //   // createdAt: new Date(),
+    //   //   // updatedAt: new Date(),
+    //   //   // UserId: 1,
+    //   //   feePaid: true,
+    //   // },
+    //   // {
+    //   //   name: 'Ramesh',
+    //   //   course: 'blockchain',
+    //   //   age: 22,
+    //   //   // createdAt: new Date(),
+    //   //   // updatedAt: new Date(),
+    //   //   // UserId: 2,
+    //   //   feePaid: true,
+    //   // },
+    // ]);
     /**
      * Add seed commands here.
      *

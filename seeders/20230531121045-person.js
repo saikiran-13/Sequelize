@@ -18,6 +18,13 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
+      {
+        firstName: 'Name',
+        lastName: 'Doe',
+        email: 'WIck@example.com',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
     ]);
     /**
      * Add seed commands here.
